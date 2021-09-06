@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "Check a Language selected before submit.",
+  "icons": {
+    "128": "icon.png"
+  },
   "content_scripts": [{
     "matches": [
       "https://atcoder.jp/contests/*/tasks/*",
