@@ -1,0 +1,17 @@
+{
+  "name": "Atcoder Lang Check",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Check a Language selected before submit.",
+  "content_scripts": [{
+    "matches": [
+      "https://atcoder.jp/contests/*/tasks/*",
+      "https://atcoder.jp/contests/*/submit",
+      "https://atcoder.jp/contests/*/submit?*"
+    ],
+    "js": [
+      "main.js"
+    ]
+  }]
+}
+  
